@@ -44,11 +44,11 @@ local GITHUB_PATH  = "keys.txt"
     4. กด Generate แล้วนำ Token (เช่น github_pat_xxxx) มาวางใน GITHUB_TOKEN ด้านล่างนี้
     * หากไม่ใส่ Token ("") แอดมินสามารถเข้าไปใส่ :HWID ต่อท้ายคีย์ใน GitHub เองได้
 --]]
-local GITHUB_TOKEN = ""
+local GITHUB_TOKEN = "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"
 
 -- หากเป็น true: คีย์บน GitHub จะต้องมี :HWID เท่านั้นถึงจะใช้งานได้ (ป้องกันคนเอาคีย์ที่ยังไม่ผูกไปแชร์กัน)
 -- หากเป็น false: อนุญาตให้คีย์ที่ยังไม่มี :HWID ถูกผูกกับเครื่องแรกที่นำไปใช้
-local STRICT_HWID_ONLY = true
+local STRICT_HWID_ONLY = false
 
 -- ชื่อไฟล์เซฟคีย์ในเครื่อง
 local SAVE_FILE_NAME = "UniqueHub_FishingKey.json"
